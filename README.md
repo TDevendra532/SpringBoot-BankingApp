@@ -50,6 +50,12 @@ docker run -d \
 -p 8080:8080 \
 devendra532/spring-bankapp:v1
 
+# Push image to DockerHub
+# First do docker login anmd enter Username & Password
+docker login
+docker tag spring-bankapp:v1 devendra532/spring-bankapp:v1
+docker push devendra532/spring-bankapp:v1
+
 # incase of docker-compose.yml (Skip above 3 steps)
 docker compose up -d
 
