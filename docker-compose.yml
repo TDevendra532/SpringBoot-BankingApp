@@ -18,7 +18,7 @@ services:
       start_period: 30s
 
   mainapp:
-    image: ${DUSER}/${IMAGE}
+    image: devendra532/spring-bankapp
     container_name: Bankapp
     environment:
       - SPRING_DATASOURCE_USERNAME=root
