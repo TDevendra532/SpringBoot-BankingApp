@@ -24,7 +24,7 @@ Make sure EC2 instance has:
 ## 📸 Application UI Screenshots
 
 #### ✅ EC2 Instance Running  
-![EC2](images/EC2.png)
+![EC2](Images/EC2.png)
 
 #### ✅ EC2 Security Group Setup  
 ![EC2 SG](Images/EC2_SG.png)
@@ -32,13 +32,13 @@ Make sure EC2 instance has:
 #### ✅ BankApp - Home Page  
 ![BankApp 1](Images/Bankapp_1.png)
 
-#### ✅ BankApp - Account Details  
+#### ✅ BankApp - Account Registration
 ![BankApp 2](Images/BankApp_2.png)
 
-#### ✅ BankApp - Transactions  
+#### ✅ BankApp - Account Login 
 ![BankApp 3](Images/BankApp_3.png)
 
-#### ✅ BankApp - Final Overview  
+#### ✅ BankApp - Account Transaction 
 ![BankApp 4](Images/BankApp_4.png)
 
 ---
