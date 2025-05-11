@@ -1,15 +1,16 @@
 # 🏦 Spring Boot BankApp (Dockerized on AWS EC2)
 
-This is a fully Dockerized Spring Boot + MySQL banking application, deployed on an AWS EC2 instance using Docker commands only (no Docker Compose).
+This is a fully Dockerized Spring Boot + MySQL banking application, deployed on an AWS EC2 instance using Docker commands.
 
 ---
 
-## 🔥 Full Commands (Copy-Paste Ready)
+## 🔥 Full Commands (Copy-Paste Ready) for EC2 Terminal.
+Steps to Follow :
 
 ```bash
 # 1. Clone the Repository
 git clone https://github.com/TDevendra532/spring-bankapp-custom.git
-cd spring-bankapp-custom
+cd spring-bankapp
 
 # 2. Build the JAR file
 ./mvnw clean package
