@@ -15,7 +15,7 @@ Make sure EC2 instance has:
 - ✅ Java installed (`sudo apt install openjdk-17-jdk -y`)
 - ✅ Maven installed (`sudo apt install maven -y`)
 - ✅ Docker installed (`sudo apt install docker.io -y`)
-- Copy & Paste below commands on EC2 terminal after EC2 connect or EC2 SSH
+- Copy & Paste commands from bottom on EC2 terminal after EC2 connect or EC2 SSH
 - Go to security group of Your EC2 & add port 8080 in inbound rules
 
      ---
