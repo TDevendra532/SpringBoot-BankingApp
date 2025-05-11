@@ -16,7 +16,8 @@ Make sure EC2 instance has:
 - ✅ Maven installed (`sudo apt install maven -y`)
 - ✅ Docker installed (`sudo apt install docker.io -y`)
 
-- Follow Below Steps on EC2 terminal after EC2 connect or EC2 SSH
+- 1. Copy & Paste below commands on EC2 terminal after EC2 connect or EC2 SSH
+  2. Go to security group of Your EC2 & add port 8080 in inbound rules
 
 ```bash
 # Clone the repo
