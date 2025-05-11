@@ -18,7 +18,6 @@ Make sure EC2 instance has:
 
 - 1. Copy & Paste below commands on EC2 terminal after EC2 connect or EC2 SSH
   2. Go to security group of Your EC2 & add port 8080 in inbound rules
-  3. Your App will look like this :
      ---
 
 ## 📸 Application UI Screenshots
@@ -42,6 +41,7 @@ Make sure EC2 instance has:
 ![BankApp 4](Images/BankApp_4.png)
 
 ---
+# Commnds to follow on EC2 terminal :
 
 ```bash
 # Clone the repo
