@@ -52,16 +52,16 @@ cd SpringBoot-BankingApp
 sudo apt update -y
 sudo apt install -y docker.io
 
-# Start & Enable Docker service
-sudo systemctl start docker
-sudo systemctl enable docker
-
 # Verify installation
 docker --version
 
 # Docker to be used on Ubuntu
 sudo usermod -aG docker $USER
 newgrp docker
+
+# Start & Enable Docker service
+sudo systemctl start docker
+sudo systemctl enable docker
 
 # Build the JAR file
 mvn clean install
