@@ -16,6 +16,8 @@ Make sure EC2 instance has:
 - ✅ Maven installed (`sudo apt install maven -y`)
 - ✅ Docker installed (`sudo apt install docker.io -y`)
 
+- Follow Below Steps on EC2 terminal after EC2 connect or EC2 SSH
+
 ```bash
 # Clone the repo
 git clone https://github.com/TDevendra532/SpringBoot-BankingApp.git
