@@ -2,7 +2,7 @@
 
 This is a **Dockerized Spring Boot Banking Application** connected to **MySQL**, fully deployed on an **AWS EC2 instance** using Docker CLI.  
 It follows real-world deployment practices including container networking, health checks, and infrastructure isolation.
-
+Check Images Folder to view the OverView of Application.
 This project is perfect for demonstrating **cloud deployment, DevOps workflow, and freelance readiness**.
 
 ---
