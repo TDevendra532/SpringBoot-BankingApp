@@ -58,6 +58,9 @@ Esc + :wq
 # Build Docker image
 docker build -t devendra532/spring-bankapp:v1 .
 
+# Incase If multistage Dockerfile is used (skip above step)
+docker build -t devendra532/spring-bankapp:v1 -f Dockerfile-Multistage .
+
 # Create Docker network
 docker network create bankapp-net
 
