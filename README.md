@@ -1,16 +1,23 @@
 # 🏦 Spring Boot BankApp (Dockerized on AWS EC2)
 
-This is a **Dockerized Spring Boot Banking Application** connected to **MySQL**, fully deployed on an **AWS EC2 instance** using Docker CLI.  
-It follows real-world deployment practices including container networking, health checks, and infrastructure isolation.
-Check Images Folder to view the OverView of Application.
+This is a **Dockerized Spring Boot Banking Application** connected to **MySQL**, fully deployed on an **AWS EC2 instance** using Docker CLI.
+
+It follows real-world deployment practices including container networking, health checks, and infrastructure isolation.  
+📂 **Check the `Images/` folder to view full UI & setup screenshots.**
+
 This project is perfect for demonstrating **cloud deployment, DevOps workflow, and freelance readiness**.
 
 ---
 
 ## 🚀 EC2 Docker Deployment Commands
 
+Make sure EC2 instance has:
+- ✅ Java installed (`sudo apt install openjdk-17-jdk -y`)
+- ✅ Maven installed (`sudo apt install maven -y`)
+- ✅ Docker installed (`sudo apt install docker.io -y`)
+
 ```bash
-# Clone the repo on EC2
+# Clone the repo
 git clone https://github.com/TDevendra532/SpringBoot-BankingApp.git
 cd SpringBoot-BankingApp
 
@@ -43,8 +50,7 @@ docker run -d \
 -p 8080:8080 \
 devendra532/spring-bankapp:v1
 
-# Check Application on AWS Ec2:
-https//EC2_public_Ip:8080
+# Application Deployed on EC2 :
+App URL:       http://<EC2_PUBLIC_IP>:8080
+Health URL:    http://<EC2_PUBLIC_IP>:8080/actuator/health
 
-# Health check
-curl http://localhost:8080/actuator/health
