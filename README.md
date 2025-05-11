@@ -27,19 +27,19 @@ Make sure EC2 instance has:
 ![EC2](images/EC2.png)
 
 #### ✅ EC2 Security Group Setup  
-![EC2 SG](images/EC2_SG.png)
+![EC2 SG](Images/EC2_SG.png)
 
 #### ✅ BankApp - Home Page  
-![BankApp 1](images/Bankapp_1.png)
+![BankApp 1](Images/Bankapp_1.png)
 
 #### ✅ BankApp - Account Details  
-![BankApp 2](images/BankApp_2.png)
+![BankApp 2](Images/BankApp_2.png)
 
 #### ✅ BankApp - Transactions  
-![BankApp 3](images/BankApp_3.png)
+![BankApp 3](Images/BankApp_3.png)
 
 #### ✅ BankApp - Final Overview  
-![BankApp 4](images/BankApp_4.png)
+![BankApp 4](Images/BankApp_4.png)
 
 ---
 
