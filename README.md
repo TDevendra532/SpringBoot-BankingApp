@@ -18,6 +18,30 @@ Make sure EC2 instance has:
 
 - 1. Copy & Paste below commands on EC2 terminal after EC2 connect or EC2 SSH
   2. Go to security group of Your EC2 & add port 8080 in inbound rules
+  3. Your App will look like this :
+     ---
+
+## 📸 Application UI Screenshots
+
+#### ✅ EC2 Instance Running  
+![EC2](images/EC2.png)
+
+#### ✅ EC2 Security Group Setup  
+![EC2 SG](images/EC2_SG.png)
+
+#### ✅ BankApp - Home Page  
+![BankApp 1](images/Bankapp_1.png)
+
+#### ✅ BankApp - Account Details  
+![BankApp 2](images/BankApp_2.png)
+
+#### ✅ BankApp - Transactions  
+![BankApp 3](images/BankApp_3.png)
+
+#### ✅ BankApp - Final Overview  
+![BankApp 4](images/BankApp_4.png)
+
+---
 
 ```bash
 # Clone the repo
