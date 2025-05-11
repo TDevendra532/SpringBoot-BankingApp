@@ -63,10 +63,7 @@ newgrp docker
 sudo systemctl start docker
 sudo systemctl enable docker
 
-# Build the JAR file
-mvn clean install
-
-# Now, Create DockerFile for Application (Reffer Dockerfile)
+# Now, Create DockerFile for Application (Reffer Dockerfile of this Repository)
 vim Dockerfile
 Esc + :wq
 
