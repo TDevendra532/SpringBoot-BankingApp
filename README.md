@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # 🏦 Spring Boot BankApp (Dockerized on AWS EC2)
 
 This is a fully Dockerized Spring Boot + MySQL banking application, deployed on an AWS EC2 instance using Docker commands.
@@ -26,12 +27,35 @@ cd spring-bankapp-custom
 mvn clean package
 
 # Build the Docker image
+=======
+# SpringBoot-BankingApp
+This App is deployed on AWS EC2 with the help of Dockerfile with Java Application as Frontend and MySQL Application as Backend
+
+
+---
+
+## 🚀 EC2 Docker Deployment Commands
+
+```bash
+# Clone the repo on EC2
+git clone https://github.com/TDevendra532/spring-bankapp-custom.git
+cd spring-bankapp-custom
+
+# Build the JAR
+./mvnw clean package
+
+# Build Docker image
+>>>>>>> Stashed changes
 docker build -t devendra532/spring-bankapp:v1 .
 
 # Create Docker network
 docker network create bankapp-net
 
+<<<<<<< Updated upstream
 # Start MySQL container
+=======
+# Run MySQL container
+>>>>>>> Stashed changes
 docker run -d \
 --name mysql \
 --network bankapp-net \
@@ -41,7 +65,11 @@ docker run -d \
 -p 3306:3306 \
 mysql:latest
 
+<<<<<<< Updated upstream
 # Start Spring Boot App container
+=======
+# Run Spring Boot app container
+>>>>>>> Stashed changes
 docker run -d \
 --name bankapp \
 --network bankapp-net \
@@ -51,6 +79,7 @@ docker run -d \
 -p 8080:8080 \
 devendra532/spring-bankapp:v1
 
+<<<<<<< Updated upstream
 # Verify application health
 curl http://localhost:8080/actuator/health
 
@@ -93,3 +122,5 @@ devendra532/spring-bankapp:v1
 # 7. Verify Application
 curl http://localhost:8080/actuator/health
 
+=======
+>>>>>>> Stashed changes
