@@ -24,6 +24,10 @@ cd SpringBoot-BankingApp
 # Build the JAR file
 mvn clean install
 
+# Now, Create DockerFile for Application (Reffer Dockerfile)
+vim Dockerfile
+Esc + :wq
+
 # Build Docker image
 docker build -t devendra532/spring-bankapp:v1 .
 
