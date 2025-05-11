@@ -15,7 +15,7 @@ git clone https://github.com/TDevendra532/SpringBoot-BankingApp.git
 cd SpringBoot-BankingApp
 
 # Build the JAR file
-./mvnw clean package
+mvn clean install
 
 # Build Docker image
 docker build -t devendra532/spring-bankapp:v1 .
