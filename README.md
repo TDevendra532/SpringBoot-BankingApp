@@ -44,9 +44,24 @@ Make sure EC2 instance has:
 # Commnds to follow on EC2 terminal :
 
 ```bash
-# Clone the repo
-git clone https://github.com/TDevendra532/SpringBoot-BankingApp.git
+# Clone the repository from Developer Goldencat98
+git clone https://github.com/Goldencat98/Bank-App
 cd SpringBoot-BankingApp
+
+# Update & Install Docker
+sudo apt update -y
+sudo apt install -y docker.io
+
+# Start & Enable Docker service
+sudo systemctl start docker
+sudo systemctl enable docker
+
+# Verify installation
+docker --version
+
+# Docker to be used on Ubuntu
+sudo usermod -aG docker $USER
+newgrp docker
 
 # Build the JAR file
 mvn clean install
