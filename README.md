@@ -50,6 +50,9 @@ docker run -d \
 -p 8080:8080 \
 devendra532/spring-bankapp:v1
 
+# incase of docker-compose.yml (Skip above 3 steps)
+docker compose up -d
+
 # Application Deployed on EC2 :
 App URL:       http://<EC2_PUBLIC_IP>:8080
 Health URL:    http://<EC2_PUBLIC_IP>:8080/actuator/health
